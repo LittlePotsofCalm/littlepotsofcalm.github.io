@@ -1,0 +1,38 @@
+body{
+    background-color: #a9a9a9;
+}
+
+.header {
+    background-color: DeepSkyBlue;
+    color: DarkGreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+}
+
+.test{
+    background-color: HotPink;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    transition: 2s;
+}
+
+.test:hover{
+    background-color: Bisque;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: DarkSeaGreen;
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color: FireBrick;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
